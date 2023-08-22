@@ -1,3 +1,46 @@
-<p>cap-america works!</p>
-<img src="assets/CA-home.jpg" alt="No Image Found">
-<app-about></app-about>
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Gradient Color Effect | CodingNepal</title>
+      <!-- <link rel="stylesheet" href="style.css"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+       <div class="cap-america" [style.margin-top]="marginTop">
+      <div class="center">
+         <div class="outer button">
+            <button (click)="setMarginTop(40)"><a style="text-decoration: none; color: white;" [routerLink]="['Home']">Home</a></button>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="center">
+            <div class="outer button">
+               <button (click)="setMarginTop(1)"><a style="text-decoration: none; color: white;" [routerLink]="['About']">About</a></button>
+               <span></span>
+               <span></span>
+            </div>
+            <div class="center">
+                <div class="outer button">
+                   <button (click)="setMarginTop(1)"><a style="text-decoration: none; color: white;" [routerLink]="['services']">Services</a></button>
+                   <span></span>
+                   <span></span>
+                </div>
+                <div class="center">
+                    <div class="outer button">
+                       <button (click)="setMarginTop(1)"><a style="text-decoration: none; color: white;" [routerLink]="['contactus']">Contact Us</a></button>
+                       <span></span>
+                       <span></span>
+                    </div>
+         <!-- <div class="outer circle">
+            <button>Hover Me</button>
+            <span></span>
+            <span></span>
+         </div> -->
+      </div>
+    </div>
+</div>
+</div></div>
+   </body>
+</html>

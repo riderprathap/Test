@@ -7,6 +7,7 @@ import { CapAmericaComponent } from './cap-america/cap-america.component';
 import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServicesComponent } from './services/services.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ServicesComponent } from './services/services.component';
     CapAmericaComponent,
     AboutComponent,
     ContactUsComponent,
-    ServicesComponent
+    ServicesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

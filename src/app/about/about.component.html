@@ -1,45 +1,99 @@
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
+<!-- <div style="background-image: url(assets/CA-fullhd.jpg); height: 1080px; width: 1349px; position: fixed;"> -->
+   <!DOCTYPE html>
+   <html lang="en">
    <head>
-      <meta charset="utf-8">
-      <title>Gradient Color Effect | CodingNepal</title>
-      <!-- <link rel="stylesheet" href="style.css"> -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Avengers - Earth's Mightiest Heroes</title>
+   <style>
+     body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #000;
+       color: #fff;
+     }
+     header {
+       background-color: #524f4f;
+       padding: 20px;
+       /* width: 85%; */
+       text-align: center;
+     }
+     header h1 {
+       margin: 0;
+       width: 90%;
+       color: #fff;
+     }
+     .avengers-container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin-top: 5%;
+       padding: 10%;
+       width: 150%;
+     }
+     .avenger-card {
+       width: 250px;
+       margin: 15px;
+       background-color: #222;
+       border: 1px solid #444;
+       border-radius: 5px;
+       padding: 10px;
+       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+     }
+     .avenger-card img {
+       width: 100%;
+       border-radius: 5px;
+     }
+     .avenger-name {
+       font-weight: bold;
+       margin-top: 10px;
+     }
+     .avenger-description {
+       margin-top: 5px;
+       color: #aaa;
+     }
+
+     .hover-image {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+
+  .avenger-card:hover .hover-image {
+    transform: translateY(-3px);
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    padding: 3px;
+  }
+
+   </style>
    </head>
    <body>
-      <div class="center">
-         <div class="outer button">
-            <button><a style="text-decoration: none; color: white;" href="D:\HTML\Day1\Day1.html">Home</a></button>
-            <span></span>
-            <span></span>
+      <div style="background-image: url(assets/CA-fullhd.jpg); height: 105%; width: 105; display: flex; margin: 0;">
+         <audio loop autoplay [volume]=".50" src="assets/Captain-America-Song-2.mp3" type="mp3"></audio>
+    <div>
+         <header style="margin-top: 20%; width: 140%; background: linear-gradient(108deg, rgb(14, 13, 13) 15%, rgb(44, 62, 70) 35%, rgb(3, 57, 73) 50%, rgb(2, 20, 20) 100%); border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-color: #ffeb3b; border: 5px; padding: 5px;">
+       <h1>Avengers - Earth's Mightiest Heroes</h1>
+     </header>
+     <div class="avengers-container">
+       <div class="avenger-card">
+        <a href="https://www.marvel.com/characters/iron-man-tony-stark"><img class="hover-image" src="assets/IM.jpg" alt="Iron Man"></a>
+         <div class="avenger-name">Iron Man</div>
+         <div class="avenger-description">
+           Tony Stark, a genius inventor, and billionaire. He builds powered suits of armor to fight crime as Iron Man.
          </div>
-         <div class="center">
-            <div class="outer button">
-               <button><a style="text-decoration: none; color: white;" href="/cap-america.component.html">About</a></button>
-               <span></span>
-               <span></span>
-            </div>
-            <div class="center">
-                <div class="outer button">
-                   <button><a style="text-decoration: none; color: white;" href="/services.component.html">Services</a></button>
-                   <span></span>
-                   <span></span>
-                </div>
-                <div class="center">
-                    <div class="outer button">
-                       <button><a style="text-decoration: none; color: white;" href="/contact-us.component.html">Contact Us</a></button>
-                       <span></span>
-                       <span></span>
-                    </div>
-         <!-- <div class="outer circle">
-            <button>Hover Me</button>
-            <span></span>
-            <span></span>
-         </div> -->
-      </div>
-    </div>
-</div>
-</div>
+       </div>
+       <div class="avenger-card">
+        <a href="https://www.marvel.com/characters/captain-america-steve-rogers"><img class="hover-image" src="assets/CA.jpg" alt="Captain America"></a>
+         <div class="avenger-name">Captain America</div>
+         <div class="avenger-description">
+           Steve Rogers, a super-soldier with enhanced strength and agility. He wields his iconic shield in battle.
+         </div>
+       </div>
+       <!-- Add more avenger cards here -->
+     </div>
+   </div>
+  </div>
    </body>
-</html>
+   </html>
+       
